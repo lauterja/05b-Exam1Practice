@@ -9,8 +9,8 @@ These problems illustrate concepts that previous problems have not emphasized:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Valerie Galluzzi, Mark Hays, Amanda Stouder, Aaron Wilkin,
-         their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues, and Jacob Lauteri.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 import testing_helper
@@ -112,6 +112,7 @@ def run_test_problem0a():
         print('the built-in constant False.')
         print('Ask for help as needed.')
 
+
     # Test 2:
     expected = True
     print_expected_result_of_test([306], expected, test_results, format_string)
@@ -206,6 +207,8 @@ def problem0a(n):
     #        Simply try a few examples to convince yourself of this.
     #        ASK FOR HELP if you do not understand this hint.
     # -------------------------------------------------------------------------
+    if sum_of_digits(n):
+        sum_of_digits(even)
 
 
 def run_test_problem0b():
