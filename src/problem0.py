@@ -205,11 +205,10 @@ def problem0a(n):
     #        If that remainder is 0, the number is even.
     #        If that remainder is 1, the number is odd.
     #        Simply try a few examples to convince yourself of this.
-    #        ASK FOR HELP if you do not understand this hint.
-    # -------------------------------------------------------------------------
-    if sum_of_digits(n):
-        sum_of_digits(even)
-
+    #        ASK FOR HE-------------------------------------------
+    n % 2
+    format_string = '    problem0a( {} )'
+    return n
 
 def run_test_problem0b():
     """ Tests the   problem0b   function. """
